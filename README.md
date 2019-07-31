@@ -26,6 +26,9 @@ more familiar with some steps in tackling a new problem.
 The notebook is `notebooks/pokemon.pynb`. The dataset can be found
 [here](https://www.kaggle.com/abcsds/pokemon).
 
+Please note I had some trouble with this chapter because my version
+of scikit-learn did not support some of the features, specifically
+`skearn.impute.SimpleImputer`
 
 ### Requirements
 

@@ -4,3 +4,5 @@ datasets/*
 config.py
 
 notebooks/.ipynb_checkpoints
+
+.DS_Store
