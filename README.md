@@ -3,7 +3,7 @@
 
 - Clone this repository!
 - We are following [Hands on Maching Learning with SciKit Learn and TensorFlow](https://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291),
-  please read! 
+  please read!
 - Each chapter will have an associated notebook.
 - Datasets are not included here but a download link should be provided in the notebook, or here.
 
@@ -14,7 +14,7 @@ A notebook can bet started by navigating to this project and running `jupyter no
 
 ### Chapter 1 - An introduction
 
-Chapter one will be an introduction to the way we are working, a broad look at 
+Chapter one will be an introduction to the way we are working, a broad look at
 the topic of Machine Learning and hopefully a good place to start. While there
 won't be any code, the notebook will be at `notebooks/introduction.ipynb`.
 
@@ -26,6 +26,10 @@ more familiar with some steps in tackling a new problem.
 The notebook is `notebooks/pokemon.pynb`. The dataset can be found
 [here](https://www.kaggle.com/abcsds/pokemon).
 
+Please note I had some trouble with this chapter because my version
+of scikit-learn did not support some of the features, specifically
+`skearn.impute.SimpleImputer`. I was able to fix by running
+`pip3 install --upgrade scikit-learn`.
 
 ### Requirements
 
