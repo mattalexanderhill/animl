@@ -20,3 +20,6 @@ def load_housing_data():
 
 def load_pokemon_data():
     return pd.read_csv(os.path.join(LOCAL_ROOT, 'pokemon', 'pokemon.csv'))
+
+def load_country_classifier_data():
+    return pd.read_csv(os.path.join(LOCAL_ROOT, 'country_classifier', 'predictions.csv'))
